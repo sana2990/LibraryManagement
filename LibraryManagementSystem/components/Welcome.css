@@ -1,0 +1,13 @@
+.book-box {
+    margin: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    width:1000px;
+    height: 500px;
+    display: flex;
+    margin: 20px;
+}

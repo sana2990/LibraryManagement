@@ -7,6 +7,7 @@ export const fictionalBooks = [
       "A young shepherd travels across the world in search of treasure and self-discovery.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
+      popular: true,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const fictionalBooks = [
       "A young boy discovers he is a wizard and begins his magical journey at Hogwarts.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg",
+      popular: false,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const fictionalBooks = [
       "Bilbo Baggins embarks on an unexpected adventure to reclaim a lost kingdom.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
+      popular: false,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const fictionalBooks = [
       "A timeless romance exploring love, class, and misunderstandings in 19th-century England.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81Scutrtj4L.jpg",
+      popular: true,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const fictionalBooks = [
       "A mysterious millionaire pursues love and dreams during the Roaring Twenties.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
+      popular: false,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const fictionalBooks = [
       "A powerful story about justice, racism, and childhood in the American South.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81OdwZG6lUL.jpg",
+      popular: true,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const fictionalBooks = [
       "A young girl discovers the power of books during World War II in Nazi Germany.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL.jpg",
+      popular: false,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const fictionalBooks = [
       "A boy stranded at sea survives on a lifeboat with a Bengal tiger.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81k9uP7H0hL.jpg",
+      popular: true,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const fictionalBooks = [
       "A deeply emotional story of friendship, betrayal, and redemption in Afghanistan.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81IzbD2IiIL.jpg",
+      popular: false,
   },
   {
     id: 10,
@@ -88,5 +97,6 @@ export const fictionalBooks = [
       "Children enter a magical world filled with adventure, talking animals, and epic battles.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91i5INot6JL.jpg",
+      popular: true,
   },
 ];

@@ -22,3 +22,13 @@
     margin: 10px;
     border: 1px solid black;
 }
+
+.popular_img{
+    width: 200px;
+    height: 200px;
+}
+
+.popular-books{
+    display: flex;
+    flex-wrap: wrap;
+}

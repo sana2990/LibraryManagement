@@ -7,6 +7,7 @@ export const thrillerBooks = [
       "A psychological thriller about a marriage filled with secrets, lies, and shocking twists.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81dQwQlmAXL.jpg",
+      popular: true,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const thrillerBooks = [
       "A journalist and a hacker investigate a decades-old disappearance tied to a wealthy family.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91yEPgRcELL.jpg",
+      popular: false,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const thrillerBooks = [
       "A famous painter stops speaking after allegedly murdering her husband, leaving behind a mystery.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81JJPDNlxSL.jpg",
+      popular: true,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const thrillerBooks = [
       "A symbologist uncovers hidden secrets and conspiracies linked to religious history.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg",
+      popular: true,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const thrillerBooks = [
       "A U.S. Marshal investigates the disappearance of a patient from a mysterious island asylum.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81nK1j8fP1L.jpg",
+      popular: false,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const thrillerBooks = [
       "An agoraphobic woman believes she witnessed a crime while spying on her neighbors.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81R6r3JwQXL.jpg",
+      popular: false,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const thrillerBooks = [
       "A woman with memory loss uncovers terrifying truths about her past every morning.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71M1nV8J4kL.jpg",
+      popular: true,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const thrillerBooks = [
       "A defense attorney turned prosecutor revisits a high-profile child murder case.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81x6p7f8v-L.jpg",
+      popular: false,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const thrillerBooks = [
       "A seemingly perfect marriage hides a dark and disturbing reality.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81K7b5xGmLL.jpg",
+      popular: true,
   },
   {
     id: 10,
@@ -88,5 +97,6 @@ export const thrillerBooks = [
       "A couple's life falls apart after their baby disappears during a dinner party next door.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81m7sV6xqUL.jpg",
+      popular: true,
   },
 ];

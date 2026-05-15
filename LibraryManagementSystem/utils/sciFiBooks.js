@@ -7,6 +7,7 @@ export const sciFiBooks = [
       "A legendary sci-fi epic about politics, religion, and survival on the desert planet Arrakis.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91uwocAMtSL.jpg",
+      popular: true,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const sciFiBooks = [
       "A cyberpunk classic that explores artificial intelligence, hacking, and virtual reality.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81N0qYkR6-L.jpg",
+      popular: false,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const sciFiBooks = [
       "A futuristic saga about preserving civilization after the predicted fall of a galactic empire.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81LT+4G4LXL.jpg",
+      popular: true,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const sciFiBooks = [
       "An astronaut stranded on Mars uses science and determination to survive.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91F7Pf9fHjL.jpg",
+      popular: false,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const sciFiBooks = [
       "A young genius is trained through simulations to prepare for an alien invasion.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+      popular: false,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const sciFiBooks = [
       "A fast-paced cyberpunk adventure involving virtual worlds and digital viruses.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91yNG9q+kqL.jpg",
+      popular: true,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const sciFiBooks = [
       "A thrilling treasure hunt inside a massive virtual reality universe.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81aC5vK+v-L.jpg",
+      popular: true,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const sciFiBooks = [
       "Seven pilgrims share their stories on a dangerous journey across the galaxy.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91wOu8kBzlL.jpg",
+      popular: false,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const sciFiBooks = [
       "A groundbreaking novel exploring gender, politics, and human relationships on a distant planet.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81z44r5MZdL.jpg",
+      popular: true,
   },
   {
     id: 10,
@@ -88,5 +97,6 @@ export const sciFiBooks = [
       "A lone astronaut wakes up in space with no memory and must save humanity.",
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81zD9kaVW9L.jpg",
+      popular: false,
   },
 ];

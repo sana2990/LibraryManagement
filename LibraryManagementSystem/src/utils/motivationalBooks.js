@@ -8,6 +8,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
       popular: false,
+      genre: "motivational",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71sBtM3Yi5L.jpg",
       popular: true,
+      genre: "motivational",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg",
       popular: false,
+      genre: "motivational",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
       popular: false,
+      genre: "motivational",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
       popular: true,
+      genre: "motivational",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81NIliiXjuL.jpg",
       popular: true,
+      genre: "motivational",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
       popular: false,
+      genre: "motivational",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg",
       popluar: true,
+      genre: "motivational",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81gTRv2HXrL.jpg",
       popular: false,
+      genre: "motivational",
   },
   {
     id: 10,
@@ -98,5 +107,6 @@ export const motivationalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71V0l11uQOL.jpg",
       popular: false,
+      genre: "motivational",
   },
 ];

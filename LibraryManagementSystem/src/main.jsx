@@ -9,6 +9,8 @@ import Header from '../components/Header.jsx'
 import AddBook from '../components/AddBook.jsx'
 import Error from '../components/Error.jsx'
 import BookDetails from '../components/BookDetails.jsx'
+import { Provider } from 'react-redux'
+import { store } from "./redux/store";
 
 //Create Routing Information
 
@@ -43,6 +45,8 @@ const appRouter = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={appRouter} />
+    <Provider store={store}>
+      <RouterProvider router={appRouter} />
+    </Provider>
   </StrictMode>,
 )

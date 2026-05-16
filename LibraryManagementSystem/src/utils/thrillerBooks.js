@@ -8,6 +8,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81dQwQlmAXL.jpg",
       popular: true,
+      genre: "thriller",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91yEPgRcELL.jpg",
       popular: false,
+      genre: "thriller",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81JJPDNlxSL.jpg",
       popular: true,
+      genre: "thriller",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg",
       popular: true,
+      genre: "thriller",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81nK1j8fP1L.jpg",
       popular: false,
+      genre: "thriller",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81R6r3JwQXL.jpg",
       popular: false,
+      genre: "thriller",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71M1nV8J4kL.jpg",
       popular: true,
+      genre: "thriller",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81x6p7f8v-L.jpg",
       popular: false,
+      genre: "thriller",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81K7b5xGmLL.jpg",
       popular: true,
+      genre: "thriller",
   },
   {
     id: 10,
@@ -98,5 +107,6 @@ export const thrillerBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81m7sV6xqUL.jpg",
       popular: true,
+      genre: "thriller",
   },
 ];

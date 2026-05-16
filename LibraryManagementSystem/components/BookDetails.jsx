@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-import { fictionalBooks } from "../utils/fictionalBooks";
-import { motivationalBooks } from "../utils/motivationalBooks";
-import { sciFiBooks } from "../utils/sciFiBooks";
-import { thrillerBooks } from "../utils/thrillerBooks";
+import { fictionalBooks } from "../src/utils/fictionalBooks";
+import { motivationalBooks } from "../src/utils/motivationalBooks";
+import { sciFiBooks } from "../src/utils/sciFiBooks";
+import { thrillerBooks } from "../src/utils/thrillerBooks";
 
 function BookDetails() {
 

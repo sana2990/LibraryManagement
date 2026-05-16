@@ -8,6 +8,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
       popular: true,
+      genre: "fictional",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg",
       popular: false,
+      genre: "fictional",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
       popular: false,
+      genre: "fictional",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81Scutrtj4L.jpg",
       popular: true,
+      genre: "fictional",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
       popular: false,
+      genre: "fictional",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81OdwZG6lUL.jpg",
       popular: true,
+      genre: "fictional",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL.jpg",
       popular: false,
+      genre: "fictional",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81k9uP7H0hL.jpg",
       popular: true,
+      genre: "fictional",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81IzbD2IiIL.jpg",
       popular: false,
+      genre: "fictional",
   },
   {
     id: 10,
@@ -98,5 +107,6 @@ export const fictionalBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91i5INot6JL.jpg",
       popular: true,
+      genre: "fictional",
   },
 ];

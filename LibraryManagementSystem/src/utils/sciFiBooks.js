@@ -8,6 +8,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91uwocAMtSL.jpg",
       popular: true,
+      genre: "sciFi",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81N0qYkR6-L.jpg",
       popular: false,
+      genre: "sciFi",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81LT+4G4LXL.jpg",
       popular: true,
+      genre: "sciFi",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91F7Pf9fHjL.jpg",
       popular: false,
+      genre: "sciFi",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
       popular: false,
+      genre: "sciFi",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91yNG9q+kqL.jpg",
       popular: true,
+      genre: "sciFi",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81aC5vK+v-L.jpg",
       popular: true,
+      genre: "sciFi",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/91wOu8kBzlL.jpg",
       popular: false,
+      genre: "sciFi",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81z44r5MZdL.jpg",
       popular: true,
+      genre: "sciFi",
   },
   {
     id: 10,
@@ -98,5 +107,6 @@ export const sciFiBooks = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81zD9kaVW9L.jpg",
       popular: false,
+      genre: "sciFi",
   },
 ];

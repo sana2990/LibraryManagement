@@ -20,11 +20,12 @@ function Welcome(){
         <>
             <h1>Online Library System</h1>
             
-            <h2>Popular Books</h2>
             <div className="popular-books">
 
                 {popularBooks.map((book) => (
+                    
                     <div key={book.id} className="book-box">
+                        <p>{book.genre}</p>
                     <img src={book.coverImage} className='popular_img'></img>
                     <h3>{book.title}</h3>
                     <p>{book.author}</p>

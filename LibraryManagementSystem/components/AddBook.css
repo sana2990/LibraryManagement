@@ -1,13 +1,10 @@
-/* AddBook.css */
-
 body {
-  background-color: whitesmoke;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 h1 {
@@ -17,48 +14,18 @@ h1 {
 }
 
 .add-book {
-  width: 400px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
+  width: 350px;
 
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.add-book input,
-.add-book textarea,
-.add-book select {
-    background-color: white;
-    color: black;
-  padding: 10px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-.add-book textarea {
-  height: 100px;
-  resize: none;
-}
-
-.add-book button {
+add-book button {
   padding: 12px;
   background-color: blue;
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
-}
-
-.add-book button:hover {
-  background-color: navy;
-}
-
-@media (max-width: 500px) {
-  .add-book {
-    width: 90%;
-  }
 }

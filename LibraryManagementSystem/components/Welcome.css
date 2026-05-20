@@ -1,15 +1,9 @@
 .book-box {
     margin: 10px;
-    border: 1px solid black;
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    width:1000px;
-    height: 500px;
-    display: flex;
-    margin: 20px;
+    margin: 10px;
 }
 
 .book {

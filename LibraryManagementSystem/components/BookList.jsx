@@ -6,12 +6,21 @@ import { thrillerBooks } from "../src/utils/thrillerBooks";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useState } from "react";
+import "./bookList.css";
 
 function BookList() {
 
-  const books = useSelector(
-    (state) => state.books.books
-  );
+ const reduxBooks = useSelector(
+  (state) => state.books.books
+);
+
+const books = [
+  ...fictionalBooks,
+  ...sciFiBooks,
+  ...thrillerBooks,
+  ...motivationalBooks,
+  ...reduxBooks
+];
 
   const [selectedCategory, setSelectedCategory] =
     useState("");
@@ -55,7 +64,7 @@ const searchedBooks = books.filter((book) => {
       
       <h1>Browse Books</h1>
 
-      <div>
+      <div className="book">
 
         <h3>Search:</h3>
 
@@ -124,7 +133,7 @@ const searchedBooks = books.filter((book) => {
 
             <div className="book">
 
-              {fictionalBooks.map((book) => (
+              {searchedBooks.filter((book) => book.genre === "fictional").map ((book) => (
 
                 <Link
                   to={`/BookDetails/fictional/${book.id}`}
@@ -166,7 +175,7 @@ const searchedBooks = books.filter((book) => {
 
             <div className="book">
 
-              {sciFiBooks.map((book) => (
+              {searchedBooks.filter((book) => book.genre === "sci-fi").map((book) => (
 
                 <Link
                   to={`/BookDetails/scifi/${book.id}`}
@@ -174,7 +183,6 @@ const searchedBooks = books.filter((book) => {
                 >
 
                   <div className="each_book">
-                    {console.log('{book.description}')}
 
                     <img
                       src={book.coverImage}
@@ -209,7 +217,7 @@ const searchedBooks = books.filter((book) => {
 
             <div className="book">
 
-              {thrillerBooks.map((book) => (
+              {searchedBooks.filter((book) => book.genre === "thriller").map((book) => (
 
                 <Link
                   to={`/BookDetails/thriller/${book.id}`}
@@ -251,7 +259,7 @@ const searchedBooks = books.filter((book) => {
 
             <div className="book">
 
-              {motivationalBooks.map((book) => (
+              {searchedBooks.filter((book) => book.genre === "motivational").map((book) => (
 
                 <Link
                   to={`/BookDetails/motivational/${book.id}`}

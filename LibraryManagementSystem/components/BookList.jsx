@@ -21,6 +21,26 @@ function BookList() {
 const [searchType, setSearchType] =
   useState("book");
 
+const searchedBooks = books.filter((book) => {
+
+  if (searchText === "") {
+    return true;
+  }
+
+  if (searchType === "book") {
+
+    return book.title
+      .toLowerCase()
+      .includes(searchText.toLowerCase());
+
+  }
+
+  return book.author
+    .toLowerCase()
+    .includes(searchText.toLowerCase());
+
+});
+
   const handleCategory = (e) => {
     setSelectedCategory(e.target.value);
   };
@@ -44,11 +64,21 @@ const [searchType, setSearchType] =
           placeholder="enter book or author name"
           value={searchText} onChange={(e) => setSearchText(e.target.value)}
         />
-        <select onChange={(e)=> setSearchType(e.target.value)}>
-            <option>Select:</option>
-            <option>Book Name</option>
-            <option>Author</option>
-        </select>
+<select value={searchType}
+  onChange={(e) =>
+    setSearchType(e.target.value)
+  }
+>
+
+  <option value="book">
+    Book Name
+  </option>
+
+  <option value="author">
+    Author
+  </option>
+    
+</select>
 
         <h3>Filter:</h3>
 
@@ -144,6 +174,7 @@ const [searchType, setSearchType] =
                 >
 
                   <div className="each_book">
+                    {console.log('{book.description}')}
 
                     <img
                       src={book.coverImage}

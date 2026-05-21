@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 
 function Welcome(){
 
+      // Combining all books into one array
      const allBooks = [
                     ...fictionalBooks,
                     ...sciFiBooks,

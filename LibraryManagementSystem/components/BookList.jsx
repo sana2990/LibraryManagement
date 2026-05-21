@@ -3,6 +3,7 @@ import { motivationalBooks } from "../src/utils/motivationalBooks";
 import { sciFiBooks } from "../src/utils/sciFiBooks";
 import { thrillerBooks } from "../src/utils/thrillerBooks";
 
+// Importing required packages
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useState } from "react";
@@ -10,10 +11,12 @@ import "./bookList.css";
 
 function BookList() {
 
+   // Getting books added through Redux
  const reduxBooks = useSelector(
   (state) => state.books.books
 );
 
+// Combining all books into one array
 const books = [
   ...fictionalBooks,
   ...sciFiBooks,
@@ -22,11 +25,14 @@ const books = [
   ...reduxBooks
 ];
 
+   // State for selected category
   const [selectedCategory, setSelectedCategory] =
     useState("");
 
+  // State for search input
   const [searchText, setSearchText] = useState("");
 
+  // State for search type
 const [searchType, setSearchType] =
   useState("book");
 
@@ -68,11 +74,14 @@ const searchedBooks = books.filter((book) => {
 
         <h3>Search:</h3>
 
+        {/* Search input */}
         <input
           type="text"
           placeholder="enter book or author name"
           value={searchText} onChange={(e) => setSearchText(e.target.value)}
         />
+
+        {/* Search type dropdown */}
 <select value={searchType}
   onChange={(e) =>
     setSearchType(e.target.value)
@@ -86,7 +95,8 @@ const searchedBooks = books.filter((book) => {
   <option value="author">
     Author
   </option>
-    
+  
+    {/* Category filter dropdown */}
 </select>
 
         <h3>Filter:</h3>
